@@ -1,0 +1,20 @@
+HTML CODE
+<div>
+ <input type="checkbox" class="check_box" id="check" ><span>I agree Terms and Conditions</span>
+    <button class="submitBtn" onclick="Check()" style="color: white;">Sign Up</button>
+</div>
+
+
+JAVASCRIPT CODE
+function Check() {
+    let checkAns=document.getElementById("check");
+    if (checkAns.checked == true){
+        
+      
+    } else {
+       
+        alert("Please Accept Terms and Conditions");
+        return false;
+    }
+    
+}
