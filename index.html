@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check box</title>
+    <style>
+.container
+{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    
+
+
+}
+.check_box,span{
+margin: 5px;
+}
+.submitBtn{
+    color: black;
+   border-radius: 5px;
+    
+    padding: 10px;
+cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <input type="checkbox" class="check_box" id="check" ><span>I agree Terms and Conditions</span>
+           <button class="submitBtn" onclick="Check()">Sign Up</button>
+  </div> 
+   <script src="script.js"></script>
+</body>
+</html>
